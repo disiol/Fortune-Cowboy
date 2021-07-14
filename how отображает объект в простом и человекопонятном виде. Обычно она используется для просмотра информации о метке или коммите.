@@ -1,0 +1,60 @@
+[33mcommit 65d13d888a5aeb689d2ca83b9185423722dbae56[m[33m ([m[1;36mHEAD -> [m[1;32mmain[m[33m)[m
+Author: denisum <deoniisii@gamail.com>
+Date:   Wed Jul 14 19:33:43 2021 +0300
+
+    Add design file
+
+[1mdiff --git a/.gitattributes b/.gitattributes[m
+[1mindex 899a3ff..5ecfe3c 100644[m
+[1m--- a/.gitattributes[m
+[1m+++ b/.gitattributes[m
+[36m@@ -1,9 +1,7 @@[m
+ ## Unity ##[m
+[31m-[m
+ *.cs diff=csharp text[m
+ *.cginc text[m
+ *.shader text[m
+[31m-[m
+ *.mat merge=unityyamlmerge[m
+ *.anim merge=unityyamlmerge[m
+ *.unity merge=unityyamlmerge[m
+[36m@@ -13,10 +11,7 @@[m
+ *.asset merge=unityyamlmerge[m
+ *.meta merge=unityyamlmerge[m
+ *.controller merge=unityyamlmerge[m
+[31m-[m
+[31m-[m
+ ## git-lfs ##[m
+[31m-[m
+ #Image[m
+ *.jpg filter=lfs diff=lfs merge=lfs -text[m
+ *.jpeg filter=lfs diff=lfs merge=lfs -text[m
+[36m@@ -28,23 +23,19 @@[m
+ *.tga filter=lfs diff=lfs merge=lfs -text[m
+ *.cubemap filter=lfs diff=lfs merge=lfs -text[m
+ *.svg filter=lfs diff=lfs merge=lfs -text[m
+[31m-[m
+ #Audio[m
+ *.mp3 filter=lfs diff=lfs merge=lfs -text[m
+ *.wav filter=lfs diff=lfs merge=lfs -text[m
+ *.ogg filter=lfs diff=lfs merge=lfs -text[m
+[31m-[m
+ #Video[m
+ *.mp4 filter=lfs diff=lfs merge=lfs -text[m
+ *.mov filter=lfs diff=lfs merge=lfs -text[m
+ *.webm filter=lfs diff=lfs merge=lfs -text[m
+[31m-[m
+ #3D Object[m
+ *.FBX filter=lfs diff=lfs merge=lfs -text[m
+ *.fbx filter=lfs diff=lfs merge=lfs -text[m
+ *.blend filter=lfs diff=lfs merge=lfs -text[m
+ *.obj filter=lfs diff=lfs merge=lfs -text[m
+[31m-[m
+ #ETC[m
+ *.a filter=lfs diff=lfs merge=lfs -text[m
+ *.exr filter=lfs diff=lfs merge=lfs -text[m
+[36m@@ -57,4 +48,3 @@[m
+ *.rns filter=lfs diff=lfs merge=lfs -text[m
+ *.reason filter=lfs diff=lfs merge=lfs -text[m
+ *.lxo filter=lfs diff=lfs merge=lfs -text[m
+[31m-[m
